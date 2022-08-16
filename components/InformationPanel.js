@@ -1,15 +1,14 @@
-import { Stack, Button } from 'react-bootstrap';
+import { Stack, Button, Container } from 'react-bootstrap';
 
 function InformationPanel() {
         return (
-            <div>
+            <Container fluid className='info-panel-container p-5'>
                 <div className="text-center text-uppercase font-weight-bold mt-5 ">
                     <h1>Why Choose Us</h1>
                 </div>
 
-                <Stack direction="horizontal" gap={3} className="justify-content-center mt-5 p-5 info-panel-container">
+                <Stack direction="horizontal" gap={3} className="justify-content-center mt-5 p-5">
                 <div className="">
-                    <i class="bi bi-car-front"></i>
                     <h4 className="text-uppercase font-weight-bold">Financing Made Easy</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, tempore modi. Perferendis consequatur tempora quae earum, nostrum magnam quidem odit fugiat sunt officiis possimus perspiciatis ipsa, deserunt quis esse delectus.</p>
                 </div>
@@ -26,7 +25,7 @@ function InformationPanel() {
                 <a href="/cars">   <Button className="btn-danger btn-lg text-uppercase">shop all</Button> </a>
                 <a href="/about">   <Button className="btn-danger btn-lg text-uppercase">learn more</Button> </a>
                 </div>
-            </div>
+            </Container>
           );
 }
 

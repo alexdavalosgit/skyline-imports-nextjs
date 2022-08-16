@@ -1,19 +1,30 @@
-import React from 'react'
-import Data from '../data';
+
 import {  } from 'react-bootstrap'
 import InventoryCard from '../components/InventoryCard'
+import PaginationComp from './PaginationComp';
 
-function Inventory() {
+function Inventory({ data, postsPerPage, totalPosts, handlePageClick, prevPage, nextPage }) {
+
     return (
-        <section className="inventory-section mt-5 text-center p-2">
-                { Data.map((car) => {
-                    return  (
-                        <div className="container">
-                               <InventoryCard car={car} key={car.id}/>
-                        </div>
-                    )
-                 
-                })}
+        <section className="mt-5 inventory-container">
+            <div className='inventory-section p-2'>
+                { data.map((car) => {
+                        return  (
+                            <div>
+                                <InventoryCard car={car} key={car.id}/>
+                            </div>
+                        )
+
+                    })}
+            </div>
+                <PaginationComp 
+                    data={data} 
+                    postsPerPage = {postsPerPage}
+                    totalPosts = {totalPosts}
+                    handlePageClick = {handlePageClick}
+                    prevPage = {prevPage}
+                    nextPage = {nextPage} 
+                    />
         </section>
     )
 }

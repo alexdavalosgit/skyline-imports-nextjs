@@ -7,10 +7,9 @@ import InformationPanel from '../components/InformationPanel';
 
 export default function Home() {
   return (
-    <div>
-      <header>
-        <CarouselComp/>  
-      </header>
+    <>
+    <CarouselComp/>  
+    <Container fluid className='home mx-auto p-0 container-xxl'>
       <section className='section-1'>
         <Information/>
       </section>
@@ -18,7 +17,7 @@ export default function Home() {
       <section className='section-2'>
         <h4>Contact us today</h4>
       </section>
-     
-    </div>
+    </Container>
+    </>
   )
 }

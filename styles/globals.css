@@ -1,19 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
 
+/* Body */
+
 html,
 body {
   padding: 0;
   margin: 0;
+  
 }
 
+.home {
+  background-color: white;
+}
+
+/* Navbar */ 
+ 
 .navbar-style {
   background-color: #2b2d42;
-  color: white;
+  color: white; 
 }
 
 .navbar-style .nav-link,
 .navbar-style .logo {
   color: white;
+} 
+
+/* Carousel */
+
+.w-100 {
+  width: 100% !important;
+  max-height: 100vh;
+}
+
+.image-text h3{
+  font-size: 3rem;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+  height: 100%;
+  
+  
 }
 
 .content {
@@ -35,11 +65,17 @@ a {
 }
 
 .section-1 {
-  background-color: #2b2d42;
+  /*background-color: #2b2d42; */
 }
 
 .info-panel-container {
   background-color: white;
+}
+
+.inventory-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .inventory-section {
@@ -73,5 +109,9 @@ a {
 @media (max-width: 800px) {
   .inventory-section {
     grid-template-columns: 1fr;
+  }
+
+  .image-text {
+    display: none;
   }
 }

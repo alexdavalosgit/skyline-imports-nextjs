@@ -9,7 +9,7 @@ const inventoryData = [
             "interiorcolor": "Black",
             "transmission": "Manual",
             "mileage": 30000,
-            "price": 40000,
+            "price": 37000,
             "image": 'https://images.unsplash.com/photo-1616646187794-d3007d1923a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80'
          
        },
@@ -22,8 +22,8 @@ const inventoryData = [
           "exteriorcolor": "Black",
           "interiorcolor": "Black",
           "transmission": "Manual",
-          "mileage": 30000,
-          "price": 40000,
+          "mileage": 25000,
+          "price": 80000,
           "image": 'https://images.unsplash.com/photo-1612935459272-8e8101c4e7ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80'
        
      },
@@ -36,8 +36,8 @@ const inventoryData = [
           "exteriorcolor": "Red",
           "interiorcolor": "Black",
           "transmission": "Manual",
-          "mileage": 30000,
-          "price": 40000,
+          "mileage": 120000,
+          "price": 25000,
           "image": 'https://images.unsplash.com/photo-1629013013110-05467b4ad289?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
        
      },
@@ -65,7 +65,7 @@ const inventoryData = [
           "interiorcolor": "Black",
           "transmission": "Manual",
           "mileage": 50000,
-          "price": 35000,
+          "price": 55000,
           "image": 'https://images.unsplash.com/photo-1550913424-9fc8df9a7be8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1810&q=80'
        
      },

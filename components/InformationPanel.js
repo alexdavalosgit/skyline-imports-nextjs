@@ -21,7 +21,7 @@ function InformationPanel() {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, tempore modi. Perferendis consequatur tempora quae earum, nostrum magnam quidem odit fugiat sunt officiis possimus perspiciatis ipsa, deserunt quis esse delectus.</p>
                 </div>
                 </Stack>
-                <div className="mt-2 text-center">
+                <div className="mt-2 text-center btn-panel-container">
                 <a href="/cars">   <Button className="btn-danger btn-lg text-uppercase">shop all</Button> </a>
                 <a href="/about">   <Button className="btn-danger btn-lg text-uppercase">learn more</Button> </a>
                 </div>

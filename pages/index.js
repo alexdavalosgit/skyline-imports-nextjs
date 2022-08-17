@@ -3,6 +3,7 @@ import { Container, Button } from 'react-bootstrap';
 import CarouselComp from '../components/CarouselComp';
 import Information from '../components/Information';
 import InformationPanel from '../components/InformationPanel';
+import ContactForm from '../components/ContactForm';
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       </section>
       <InformationPanel/>
       <section className='section-2'>
-        <h4>Contact us today</h4>
+       
       </section>
     </Container>
     </>

@@ -24,6 +24,7 @@ function Inventory({ data, postsPerPage, totalPosts, handlePageClick, prevPage, 
                     handlePageClick = {handlePageClick}
                     prevPage = {prevPage}
                     nextPage = {nextPage} 
+                    
                     />
         </section>
     )

@@ -40,9 +40,9 @@ const Cars = () => {
         totalPosts={data.length}
         handlePageClick={handlePageClick}
         prevPage = {prevPage}
-        nextPage = {nextPage} />
-       
-
+        nextPage = {nextPage}
+         />
+      
       </div>
 
     );

@@ -21,7 +21,7 @@ function InventoryCardInfo( { car, show, handleClose } ) {
           {interiorColor} <br/>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="dark" onClick={handleClose}>
             Close
           </Button>
         </Modal.Footer>

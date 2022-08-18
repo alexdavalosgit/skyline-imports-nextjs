@@ -13,7 +13,7 @@ function PaginationComp({ postsPerPage, totalPosts, handlePageClick, prevPage, n
     }
 
   return (
-    <Pagination>
+    <Pagination className="mt-5">
       <Pagination.Prev onClick={() => prevPage()} />
 
         {

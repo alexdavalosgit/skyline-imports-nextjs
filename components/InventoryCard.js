@@ -19,7 +19,7 @@ function InventoryCard({ car }) {
           <Card.Text>
             A {car.condition} condition car with a {car.transmission} transmission and {car.mileage} miles on the odometer.
           </Card.Text>
-          <Button variant="dark" onClick={() => handleShow()}>More Info</Button>
+          <Button className="primary-btn custom-btn" onClick={() => handleShow()}>More Info</Button>
         </Card.Body>
       </Card>
 

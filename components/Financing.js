@@ -7,8 +7,12 @@ import Row from 'react-bootstrap/Row';
 function Financing({ setShowAlert }) {
   
     return (
-        <Form className= "border p-4 mt-5 mb-5">
-          <h2 className="text-center">Financing</h2>
+        <Form className= "p-4">
+            <div className="d-flex justify-content-center gap-2 align-items-center">
+              <i className="fa-solid fa-coins fa-lg"></i>
+              <h2 className="text-center">Financing</h2>
+            </div>
+      
           <Row className="mb-3">
               
           <Form.Group as={Col} controlId="formGridPassword">
@@ -57,7 +61,7 @@ function Financing({ setShowAlert }) {
           </Form.Group>
     
           <Button 
-           variant="dark"
+           className="primary-btn custom-btn"
            type="submit"
            onClick={() => setShowAlert(true)}>
             Submit

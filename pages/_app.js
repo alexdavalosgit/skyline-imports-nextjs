@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/fontawesome-icons/css/all.css'
 import Layout from '../components/Layout';
 import Head from 'next/head';
 

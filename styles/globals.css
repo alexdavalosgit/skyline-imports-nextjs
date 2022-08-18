@@ -17,6 +17,26 @@ figcaption {
   bottom: 2rem;
 }
 
+/* Primary Btn override*/
+
+.btn-primary.custom-btn,
+.btn-primary.custom-btn:visited
+ {
+  background-color: #D90429;
+  border-color: #D90429;
+  color: white;
+}
+
+.btn-primary.custom-btn:hover,
+.btn-primary.custom-btn:active,
+.btn-primary.custom-btn:focus
+ {
+  background-color: #2B2D42;
+  border-color: #2B2D42;
+  color: white;
+}
+
+
 /* Navbar */
 
 .navbar-style {
@@ -52,8 +72,12 @@ figcaption {
   font-family: "Inter", sans-serif;
 }
 
-.information {
-  background-color: #8d99ae;
+.information-section {
+  background-color: #2b2d42;
+}
+
+.info-panel {
+  background-color: #EDF2F4;
   color: black;
 }
 
@@ -61,9 +85,15 @@ figcaption {
   box-sizing: border-box;
 }
 
-.section-1 {
-  /*background-color: #2b2d42; */
+.section-2 {
+  border: solid green;
 }
+
+.section-1 {
+  background-color: #2b2d42; 
+}
+
+
 
 .info-panel-container {
   background-color: white;
@@ -74,13 +104,17 @@ figcaption {
   color: black;
 }
 
+.inventory-section {
+  min-height: 60vh;
+}
+
 .inventory-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.inventory-section {
+.inventory-panel {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
@@ -97,6 +131,14 @@ figcaption {
   background-color: #2b2d42;
   color: white;
 }
+
+/* ALT PAGES */
+.secondary-section {
+  background-color: #8D99AE;
+}
+.header-section {
+  background-color: #EDF2F4;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -108,13 +150,13 @@ figcaption {
 }
 
 @media (max-width: 1400px) {
-  .inventory-section {
+  .inventory-panel {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 800px) {
-  .inventory-section {
+  .inventory-panel {
     grid-template-columns: 1fr;
   }
 

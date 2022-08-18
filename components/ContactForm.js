@@ -1,15 +1,20 @@
 import React from 'react'
-import {Form, Button} from 'react-bootstrap';
+import {Form, Button, Container} from 'react-bootstrap';
 import InputGroup from 'react-bootstrap/InputGroup';
+
 
 
 function ContactForm({ setShowAlert }) {
     return (
-        <Form className="border mt-5 p-4">
-          <h2 className="text-center"> Contact Us </h2>
+      <Container>
+        <Form className="p-2">
+          <div className="d-flex justify-content-center gap-1 align-items-center">
+            <i className="fa-solid fa-phone fa-lg"></i> 
+            <h2> Contact Us </h2>
+          </div>
+       
 
-
-          <InputGroup className="mb-3">
+          <InputGroup className="mb-3 mt-3">
             <Form.Control
               placeholder="Recipient's Full Name"
               aria-label="Recipient's username"
@@ -39,13 +44,15 @@ function ContactForm({ setShowAlert }) {
           </InputGroup>
 
           <Button 
-           variant="dark"
+           className="primary-btn custom-btn"
            type="submit"
            onClick={() => setShowAlert(true)}>
             Submit
           </Button>
 
         </Form>
+      </Container>
+        
       );
     
 }

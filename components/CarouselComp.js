@@ -12,7 +12,9 @@ function CarouselComp() {
         <Carousel.Caption className='image-text'>
           <h3>SKYLINE IMPORTS</h3>
           <p>We sell classic JDM Japanese vehicles and import them directly from Japan.</p>
-          <Button className="btn-lg btn-light mb-3 mx-auto" href="cars">SHOP CARS</Button>
+          <Button className="btn-lg btn-primary custom-btn mb-3 mx-auto" href="cars">
+          <i className="fa-solid fa-bag-shopping"></i> SHOP CARS
+            </Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

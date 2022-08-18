@@ -30,21 +30,37 @@ const Cars = () => {
     const prevPage = () => setCurrentPage(currentPage - 1);
 
     return (
-      <div className="mt-5 text-center">
-          
-        <h2>Our Inventory:</h2>
-        <p>Note: Please call ahead to ensure availability of vehicle.</p>
-        <Inventory 
-        data={currentPosts}
-        postsPerPage={postsPerPage}
-        totalPosts={data.length}
-        handlePageClick={handlePageClick}
-        prevPage = {prevPage}
-        nextPage = {nextPage}
-         />
-      
-      </div>
+      <>
+        <section className="inventory-section d-flex flex-column justify-content-center align-items-center mt-5">
 
+          <h2>Our Inventory:</h2>
+          <p>Note: Please call ahead to ensure availability of vehicle.</p>
+          <Inventory 
+          data={currentPosts}
+          postsPerPage={postsPerPage}
+          totalPosts={data.length}
+          handlePageClick={handlePageClick}
+          prevPage = {prevPage}
+          nextPage = {nextPage}
+          />
+        </section>
+        <section className="secondary-section p-5">
+            <div className="info-panel p-5 d-flex gap-3">
+              <i className="fa-solid fa-truck fa-4x"></i>
+              <div className='p-2'>
+                <h2 className='info-heading'>Monthly Inventory Refresh!</h2>
+                <p className="info-text">We are constantly refreshing our inventory for our customers. Skyline Imports has developed an excellent relationship with our global suppliers. Special request can be made to our communications team. Please contact us at (123)-456-7890 or send us an email at skylineimports@gmail.com to learn more about this feature!</p>
+              </div>
+            </div>
+            <div className="info-panel p-5 d-flex mt-5 gap-3">
+              <i className="fa-solid fa-cart-plus fa-4x"></i>
+              <div className='p-2'>
+                <h2 className='info-heading'>Specialized Requests</h2>
+                <p className="info-text">We are constantly refreshing our inventory for our customers. Skyline Imports has developed an excellent relationship with our global suppliers. Special request can be made to our communications team. Please contact us at (123)-456-7890 or send us an email at skylineimports@gmail.com to learn more about this feature!</p>
+              </div>
+            </div>
+        </section>
+      </>
     );
       
 }

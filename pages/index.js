@@ -9,16 +9,16 @@ import ContactForm from '../components/ContactForm';
 export default function Home() {
   return (
     <>
-    <CarouselComp/>  
-    <Container fluid className='home mx-auto p-0 container-xxl'>
-      <section className='section-1'>
+    <section className="section-1">
+      <CarouselComp/>  
+      <Container fluid className='mx-auto p-0 container-xxl'>
         <Information/>
-      </section>
-      <InformationPanel/>
-      <section className='section-2'>
-       
-      </section>
-    </Container>
+      </Container>
+    </section>
+
+    <section className="section-2">
+        <InformationPanel/>
+    </section>
     </>
   )
 }

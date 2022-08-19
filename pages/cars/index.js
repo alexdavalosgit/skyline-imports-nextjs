@@ -31,9 +31,9 @@ const Cars = () => {
 
     return (
       <>
-        <section className="inventory-section d-flex flex-column justify-content-center align-items-center mt-5">
+        <section className="inventory-section d-flex flex-column justify-content-center align-items-center">
 
-          <h2>Our Inventory:</h2>
+          <h2 className='mt-5'>Our Inventory:</h2>
           <p>Note: Please call ahead to ensure availability of vehicle.</p>
           <Inventory 
           data={currentPosts}

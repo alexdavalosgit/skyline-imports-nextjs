@@ -10,7 +10,7 @@ function InventoryCard({ car }) {
     const handleClose = () => setShow(false);
 
     return (
-        <div className="card-container">
+        <div className="card-container border text-center">
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={car.image} />
         <Card.Body>

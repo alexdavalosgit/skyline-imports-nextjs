@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap');
 
 /* Body */
 
@@ -49,6 +50,10 @@ figcaption {
   color: white;
 }
 
+.logo {
+  font-weight: bold;
+}
+
 /* Carousel */
 
 .w-100 {
@@ -57,27 +62,33 @@ figcaption {
 }
 
 .image-text h3 {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 .image-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-size: 2rem;
   height: 100%;
+  
 }
 
 .content {
-  font-family: "Inter", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .information-section {
   background-color: #2b2d42;
 }
 
+
+
 .info-panel {
   background-color: #EDF2F4;
+  border-radius: 1rem;
   color: black;
 }
 
@@ -85,18 +96,9 @@ figcaption {
   box-sizing: border-box;
 }
 
-.section-2 {
-  border: solid green;
-}
 
 .section-1 {
   background-color: #2b2d42; 
-}
-
-
-
-.info-panel-container {
-  background-color: white;
 }
 
 .btn-panel-container a {
@@ -106,6 +108,7 @@ figcaption {
 
 .inventory-section {
   min-height: 60vh;
+  background-color: #EDF2F4;
 }
 
 .inventory-container {
@@ -125,6 +128,7 @@ figcaption {
 .card-container {
   display: flex;
   justify-content: center;
+  border-radius: 1rem;
 }
 /* Footer */
 .footer-container {
@@ -138,6 +142,9 @@ figcaption {
 }
 .header-section {
   background-color: #EDF2F4;
+}
+.full-screen {
+  min-height: 80vh;
 }
 @media (prefers-color-scheme: dark) {
   html {
@@ -160,7 +167,16 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
-  .image-text {
+  .image-text h3{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #bootstrap-overide {
+    padding: 0;
+  }
+  .d-xl-flex.hide-icon {
     display: none;
   }
 }

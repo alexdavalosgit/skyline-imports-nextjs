@@ -11,7 +11,6 @@ function CarouselComp() {
         />
         <Carousel.Caption className='image-text'>
           <h3>SKYLINE IMPORTS</h3>
-          <p>We sell classic JDM Japanese vehicles and import them directly from Japan.</p>
           <Button className="btn-lg btn-primary custom-btn mb-3 mx-auto" href="cars">
           <i className="fa-solid fa-bag-shopping"></i> SHOP CARS
             </Button>
@@ -25,8 +24,7 @@ function CarouselComp() {
         />
 
         <Carousel.Caption className='image-text'>
-          <h3>EXPERIENCED IN THE BUSINESS.</h3>
-          <p> Skyline Imports has been operating for over 30 years. We have the experience and expertise to help you find your dream JDM vehicle.</p>
+          <h3>CHOOSE FROM A LARGE SELECTION.</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -36,11 +34,8 @@ function CarouselComp() {
           alt="Third slide"
         />
 
-        <Carousel.Caption className='image-text'>
-          <h3>FAIR PRICES</h3>
-          <p>
-          Skyline Imports promises you fair and transparent transactions. We value our customers!
-          </p>
+        <Carousel.Caption className='image-text text-light'>
+          <h3>MAKES BUYING A JDM CAR EASY.</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -3,8 +3,8 @@ import { Stack, Button, Container } from 'react-bootstrap';
 function InformationPanel() {
         return (
             <Container fluid className='info-panel-container p-5'>
-                <div className="text-center text-uppercase font-weight-bold mt-5 ">
-                    <h1>Why Choose Us</h1>
+                <div className="text-center text-uppercase font-weight-bold mt-5">
+                    <h1 className='pb-4'>Why Choose Skyline Imports?</h1>
                 </div>
 
                 <Stack direction="horizontal" gap={3} className="flex-column flex-md-row justify-content-center align-items-center mt-5">

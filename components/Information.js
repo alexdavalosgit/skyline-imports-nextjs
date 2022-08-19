@@ -3,10 +3,10 @@ import { Stack, Button, Container } from 'react-bootstrap';
 function Information() {
   return (
 
-    <Container fluid className="p-0 mt-5 mx-auto">
-      <Stack gap={4} className="p-5">
+    <Container fluid className="pt-5 pb-5">
+      <Stack gap={4} className="p-sm-5">
         <div className="info-panel p-5 d-flex gap-3">
-              <i className="fa-solid fa-car fa-4x"></i>
+              <i className="hide-icon d-xl-flex fa-solid fa-car fa-4x"></i>
               <div className='p-2'>
                 <h2 className='info-heading'>What is JDM?</h2>
                 <p className='info-text'>If you have a passion for collecting antique cars, you have probably heard of the term JDM. 
@@ -18,7 +18,7 @@ function Information() {
         </div>
 
         <div className="info-panel p-5 d-flex gap-3">
-              <i className="fa-solid fa-1 fa-4x"></i>
+              <i className="hide-icon d-xl-flex fa-solid fa-1 fa-4x"></i>
               <div className='p-2'>
                 <h2 className='info-heading'>The Best in JDM Imports!</h2>
                 <p className='info-text'>When it comes to Japanese Domestic Market imports, it’s vital that you trust the source. That’s why, at Skyline Imports, we only deal in the best of the best.
@@ -29,19 +29,12 @@ function Information() {
         </div>
 
         <div className="info-panel p-5 d-flex gap-3">
-              <i className="fa-solid fa-flag fa-4x"></i>
+              <i className="hide-icon d-xl-flex fa-solid fa-flag fa-4x"></i>
               <div className='p-2'>
                   <h2 className='info-heading'>Taking the Trouble Out of Overseas Purchases!</h2>
                   <p className='info-text'>
-                  Overseas purchases can be tedious and overcomplicated!
                     At Skyline Imports, we understand the difficulties involved with purchasing and importing a vehicle from outside the US, which is why we’ve dedicated ourselves to making it easier.
-
                     We make sure we know every last detail of each JDM vehicle we import, and we handle all the necessary paperwork. All you have to do is sign on the dotted line before you take ownership of your new right hand drive JDM sports car or daily driver.
-
-                    From the initial search to the financing process, Skyline Imports has got you covered.
-
-                    Check out our current stock, take a look at our incoming vehicles, and get in touch if you have any questions!
-
                     Our extensive inventory includes, but is certainly not limited to:
                   </p>
                   <div className="d-flex flex-column justify-content-center">

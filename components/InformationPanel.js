@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Stack, Button, Container } from 'react-bootstrap';
 
 function InformationPanel() {
@@ -35,9 +36,9 @@ function InformationPanel() {
                   
                 </div>
                 </Stack>
-                <div className="mt-5 text-center btn-panel-container">
-                <a href="/about">   <Button className=".btn-primary custom-btn  btn-lg text-uppercase">
-                <i className="fa-solid fa-chalkboard-user"></i> learn more</Button> </a>
+                <div className="mt-5 text-center">
+                <Link href="/about"><Button className=".btn-primary custom-btn  btn-lg text-uppercase">
+                <i className="fa-solid fa-chalkboard-user"></i> learn more</Button></Link>
                 </div>
             </Container>
           );

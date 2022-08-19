@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap");
 
 /* Body */
 
@@ -26,22 +26,19 @@ figcaption {
 /* Primary Btn override*/
 
 .btn-primary.custom-btn,
-.btn-primary.custom-btn:visited
- {
-  background-color: #D90429;
-  border-color: #D90429;
+.btn-primary.custom-btn:visited {
+  background-color: #d90429;
+  border-color: #d90429;
   color: white;
 }
 
 .btn-primary.custom-btn:hover,
 .btn-primary.custom-btn:active,
-.btn-primary.custom-btn:focus
- {
-  background-color: #2B2D42;
-  border-color: #2B2D42;
+.btn-primary.custom-btn:focus {
+  background-color: #2b2d42;
+  border-color: #2b2d42;
   color: white;
 }
-
 
 /* Navbar */
 
@@ -78,21 +75,18 @@ figcaption {
   align-items: center;
   font-size: 2rem;
   height: 100%;
-  
 }
 
 .content {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .information-section {
   background-color: #2b2d42;
 }
 
-
-
 .info-panel {
-  background-color: #EDF2F4;
+  background-color: #edf2f4;
   border-radius: 1rem;
   color: black;
 }
@@ -101,19 +95,13 @@ figcaption {
   box-sizing: border-box;
 }
 
-
 .section-1 {
-  background-color: #2b2d42; 
-}
-
-.btn-panel-container a {
-  text-decoration: none;
-  color: black;
+  background-color: #2b2d42;
 }
 
 .inventory-section {
   min-height: 60vh;
-  background-color: #EDF2F4;
+  background-color: #edf2f4;
 }
 
 .inventory-container {
@@ -144,10 +132,10 @@ figcaption {
 
 /* ALT PAGES */
 .secondary-section {
-  background-color: #8D99AE;
+  background-color: #8d99ae;
 }
 .header-section {
-  background-color: #EDF2F4;
+  background-color: #edf2f4;
 }
 .full-screen {
   min-height: 80vh;
@@ -173,7 +161,7 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
-  .image-text h3{
+  .image-text h3 {
     font-size: 2rem;
   }
 }

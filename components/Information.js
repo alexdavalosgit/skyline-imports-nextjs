@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import { Stack, Button, Container } from 'react-bootstrap';
+
 
 function Information() {
   return (
@@ -37,8 +39,8 @@ function Information() {
                     We make sure we know every last detail of each JDM vehicle we import, and we handle all the necessary paperwork. All you have to do is sign on the dotted line before you take ownership of your new right hand drive JDM sports car or daily driver.
                     Our extensive inventory includes, but is certainly not limited to:
                   </p>
-                  <div className="d-flex flex-column justify-content-center">
-                    <ul className='info-ul'>
+                  <div className="d-flex flex-column justify-content-center align-items-start">
+                    <ul className='info-ul fs-5'>
                         <li>Nissan Skyline</li>
                         <li>Subaru WRX</li>
                         <li>Mitsubishi Evolutions</li>
@@ -49,9 +51,9 @@ function Information() {
                         <li>Nissan Silvia</li>
                         <li>Nissan 180sx</li>
                       </ul>
-                      <a href="/cars">   <Button className=".btn-primary custom-btn  btn-lg text-uppercase">
+                      <Link href="/cars"><Button className=".btn-primary custom-btn  btn-lg text-uppercase">
                       <i className="fa-solid fa-bag-shopping"></i> shop all
-                      </Button> </a>    
+                      </Button></Link>
                   </div>
                    
               </div>

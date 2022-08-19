@@ -10,8 +10,8 @@ function Inventory({ data, postsPerPage, totalPosts, handlePageClick, prevPage, 
             <div className='inventory-panel p-2'>
                 { data.map((car) => {
                         return  (
-                            <div>
-                                <InventoryCard car={car} key={car.id}/>
+                            <div key={car.id}>
+                                <InventoryCard car={car}/>
                             </div>
                         )
 

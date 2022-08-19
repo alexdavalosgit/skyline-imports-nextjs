@@ -1,8 +1,6 @@
 import React, { useState , useEffect } from 'react'
 import Data from '../../data';
 import Inventory from "../../components/Inventory"
-import { Container } from "react-bootstrap"
-import InventoryCard from '../../components/InventoryCard';
 
 const Cars = () => {
 

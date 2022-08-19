@@ -14,9 +14,10 @@ function InventoryCard({ car }) {
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={car.image} />
         <Card.Body>
-          <Card.Title>{car.year} {car.brand} {car.model}</Card.Title>
-          <Card.Title>${car.price}</Card.Title>
-          <Card.Text>
+          <Card.Title className='fs-4 fw-normal'>{car.year}</Card.Title>
+          <Card.Title className='fs-4 fw-normal'>{car.brand} {car.model}</Card.Title>
+          <Card.Title className='fs-4 fw-bolder'>${car.price}</Card.Title>
+          <Card.Text className='fs-6 fw-light'>
             A {car.condition} condition car with a {car.transmission} transmission and {car.mileage} miles on the odometer.
           </Card.Text>
           <Button className="primary-btn custom-btn" onClick={() => handleShow()}>More Info</Button>

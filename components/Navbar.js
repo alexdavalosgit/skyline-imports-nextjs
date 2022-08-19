@@ -6,7 +6,7 @@ const NavbarComp = () => {
     <Navbar className="navbar-style p-3" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand href="/" className="logo">Skyline Imports</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
           <Nav.Link href="/about">About</Nav.Link>

@@ -10,7 +10,7 @@ function ContactForm({ setShowAlert }) {
         <Form className="p-2">
           <div className="d-flex justify-content-center gap-1 align-items-center">
             <i className="fa-solid fa-phone fa-lg"></i> 
-            <h2> Contact Us </h2>
+            <h2 className='fw-bold fs-3'> Contact Us </h2>
           </div>
        
 
@@ -44,7 +44,7 @@ function ContactForm({ setShowAlert }) {
           </InputGroup>
 
           <Button 
-           className="primary-btn custom-btn"
+           className="primary-btn custom-btn btn-lg"
            type="submit"
            onClick={() => setShowAlert(true)}>
             Submit

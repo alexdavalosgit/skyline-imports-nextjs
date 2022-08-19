@@ -8,9 +8,9 @@ function Financing({ setShowAlert }) {
   
     return (
         <Form className= "p-4">
-            <div className="d-flex justify-content-center gap-2 align-items-center">
+            <div className="d-flex justify-content-center gap-2 align-items-center mb-4">
               <i className="fa-solid fa-coins fa-lg"></i>
-              <h2 className="text-center">Financing</h2>
+              <h2 className="text-center fw-bold fs-3">Financing</h2>
             </div>
       
           <Row className="mb-3">
@@ -61,7 +61,7 @@ function Financing({ setShowAlert }) {
           </Form.Group>
     
           <Button 
-           className="primary-btn custom-btn"
+           className="primary-btn custom-btn btn-lg"
            type="submit"
            onClick={() => setShowAlert(true)}>
             Submit

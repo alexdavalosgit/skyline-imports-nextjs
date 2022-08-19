@@ -9,6 +9,11 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: 1.3rem;
+  line-height: 1.9;
+}
+
 .home {
   background-color: white;
 }
@@ -129,6 +134,7 @@ figcaption {
   display: flex;
   justify-content: center;
   border-radius: 1rem;
+  overflow: auto;
 }
 /* Footer */
 .footer-container {

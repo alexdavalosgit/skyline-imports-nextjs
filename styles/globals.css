@@ -173,4 +173,12 @@ figcaption {
   .d-xl-flex.hide-icon {
     display: none;
   }
+  .info-panel h2 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .info-text {
+    font-size: 1rem;
+  }
 }

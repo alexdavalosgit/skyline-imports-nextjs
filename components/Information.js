@@ -19,18 +19,18 @@ function Information() {
               </div>
         </div>
 
-        <div className="info-panel p-5 d-flex gap-3">
+        <div className="info-panel p-sm-5 p-2 d-flex gap-3">
               <i className="hide-icon d-xl-flex fa-solid fa-1 fa-4x"></i>
               <div className='p-2'>
                 <h2 className='fw-bold fs-1'>The Best in JDM Imports!</h2>
                 <p className='info-text'>When it comes to Japanese Domestic Market imports, it’s vital that you trust the source. That’s why, at Skyline Imports, we only deal in the best of the best.
                   We work tirelessly, scouring the Japanese Domestic Market for the highest quality vintage, premium, and classic right hand drive cars over 25 years old, and ship them to you in the best possible condition.
                   Our selection of JDM sports cars, daily drivers, and rugged 4x4s is always updating with the hottest low mileage vehicles.
-                  We pride ourselves in delivering only the best quality cars, and with our sprawling team of experts on the ground in Japan, as well as years of personal knowledge within the industry, you can rest assured that the car you are buying is the best possible example of JDM style and craftsmanship. We are a trusted Japanese classics llc Company as JDM Sport Classics!</p>
+                  We pride ourselves in delivering only the best quality cars, and with our sprawling team of experts on the ground in Japan, as well as years of personal knowledge within the industry, you can rest assured that the car you are buying is the best possible example of JDM style and craftsmanship. We are a trusted Japanese classics llc Company as Skyline Imports!</p>
               </div>
         </div>
 
-        <div className="info-panel p-5 d-flex gap-3">
+        <div className="info-panel p-sm-5 p-2 d-flex gap-3">
               <i className="hide-icon d-xl-flex fa-solid fa-flag fa-4x"></i>
               <div className='p-2'>
                   <h2 className='fw-bold fs-1'>Taking the Trouble Out of Overseas Purchases!</h2>
